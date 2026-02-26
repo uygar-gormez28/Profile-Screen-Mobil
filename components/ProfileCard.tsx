@@ -30,7 +30,6 @@ export default ProfileCard;
 const styles = StyleSheet.create({
   card: {
     backgroundColor: "#232a43ff",
-    borderRadius: s(12),
     padding: s(16),
     alignItems: "center",
   },

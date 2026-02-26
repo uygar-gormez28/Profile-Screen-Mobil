@@ -3,9 +3,9 @@ import React from "react";
 import { s, vs } from "react-native-size-matters";
 import AntDesign from "@expo/vector-icons/AntDesign";
 
-type ProfileCardProps = {
+interface ProfileCardProps {
   onEdit?: () => void;
-};
+}
 
 const ProfileCard: React.FC<ProfileCardProps> = ({ onEdit }) => {
   return (

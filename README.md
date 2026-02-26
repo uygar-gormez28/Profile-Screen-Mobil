@@ -36,6 +36,7 @@ Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyeb
 
 ## Ekran Görüntüsü
 
-_(İleride buraya ekran görüntüleri eklenebilir)_
+![WhatsApp Image 2026-02-27 at 02 17 25](https://github.com/user-attachments/assets/05354114-0f6f-4116-ad59-a10d4f641ae5)
+
 
 ---

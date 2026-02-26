@@ -39,5 +39,3 @@ Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyeb
 _(İleride buraya ekran görüntüleri eklenebilir)_
 
 ---
-
-_Bu proje, Antigravity AI yardımıyla bir geliştirici çift (pair programming) pratiği olarak tasarlanmıştır._ 🦁🔥

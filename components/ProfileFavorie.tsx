@@ -8,7 +8,7 @@ const ProfileFavorie = () => {
       showsHorizontalScrollIndicator={false}
       showsVerticalScrollIndicator={false}
       horizontal
-      style={{ flex: 1 }}
+      style={{ maxHeight: 300 }}
     >
       {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((i: number) => (
         <Image source={{ uri: `https://picsum.photos/200?random=${i}` }} key={i} style={styles.image} />

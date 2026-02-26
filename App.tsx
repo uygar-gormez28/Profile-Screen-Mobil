@@ -1,4 +1,4 @@
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, ScrollView } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { s } from "react-native-size-matters";
 import ProfileCard from "./components/ProfileCard";
@@ -7,21 +7,23 @@ import ProfileButton from "./components/ProfileButton";
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <ProfileCard onEdit={() => {}} />
-      <ProfileFavorie />
-      <ProfileButton />
+    <SafeAreaView style={styles.safeArea}>
+      <ScrollView contentContainerStyle={styles.container}>
+        <ProfileCard onEdit={() => {}} />
+        <ProfileFavorie />
+        <ProfileButton />
+      </ScrollView>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  safeArea: {
     flex: 1,
+    backgroundColor: "#F5F7FA", // Very light off-white premium feel
   },
-  title: {
-    fontSize: s(24),
-    fontWeight: "bold",
-    color: "#333",
+  container: {
+    flexGrow: 1,
+    paddingBottom: 20,
   },
 });
